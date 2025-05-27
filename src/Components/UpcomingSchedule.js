@@ -15,7 +15,7 @@ const UpcomingSchedule = () => {
 
   return (
     <div>
-      <h2 className="text-lg font-semibold mb-4">The Upcoming Schedule</h2>
+      <h2 className="text-lg font-semibold mb-4 mt-5">The Upcoming Schedule</h2>
       {Object.entries(schedule).map(([day, items]) => (
         <div key={day} className="mb-4">
           <p className="text-sm text-gray-500 mb-2">On {day}</p>

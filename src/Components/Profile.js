@@ -1,16 +1,15 @@
 import React from 'react';
 import avatar from '../img/avatar.png'; 
+import { IoAddCircle } from 'react-icons/io5';
+import { RiAccountCircleFill } from "react-icons/ri";
+
 const Profile = () => {
   return (
-    <div className="p-6 max-w-5xl mx-auto font-sans space-y-8">
+    <div className="p-4 max-w-5xl mx-auto font-sans space-y-8 hidden md:block">
       <div className="flex justify-end items-center gap-2">
-        <img
-          src={avatar}
-          alt="User Avatar"
-          className="w-10 h-10 rounded-xl object-cover bg-cyan-400"
-        />
-        <button className="w-10 h-10 rounded-xl bg-purple-800 flex items-center justify-center text-white text-xl font-bold">
-          +
+        <RiAccountCircleFill size={35} className='text-purple-800'/>
+        <button className="w-8 h-8 rounded-xl bg-purple-800 flex items-center justify-center text-white text-xl font-bold">
+          <IoAddCircle />
         </button>
       </div>
     </div>

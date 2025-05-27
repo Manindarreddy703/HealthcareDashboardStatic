@@ -11,7 +11,7 @@ const days = [
 ];
 
 const AppointmentCard = ({ title, time, doctor, icon, bg = 'bg-blue-800', textColor = 'text-white' }) => (
-  <div className={`flex flex-col ${bg} ${textColor} p-4 rounded-2xl w-full md:w-1/2`}>
+  <div className={`flex flex-col ${bg} ${textColor} text-wrap p-3 rounded-2xl  md:w-1/2 truncate max-w-full overflow-ellipsis`}>
     <div className="flex justify-between items-center">
       <h4 className="text-md font-semibold">{title}</h4>
       <span className="text-xl">{icon}</span>
@@ -23,7 +23,7 @@ const AppointmentCard = ({ title, time, doctor, icon, bg = 'bg-blue-800', textCo
 
 const SchedulePage = () => {
   return (
-    <div className="p-6 max-w-5xl mx-auto font-sans space-y-8">
+    <div className="p-3 max-w-5xl mx-auto font-sans space-y-8">
       {/* Calendar */}
       <div className="bg-white rounded-xl shadow p-6">
         <div className="flex justify-between items-center mb-4">
@@ -33,7 +33,7 @@ const SchedulePage = () => {
             <button>{'>'}</button>
           </div>
         </div>
-        <div className="flex justify-between overflow-x-auto gap-4">
+        <div className="flex justify-between overflow-x-auto scrollbar-none gap-4">
           {days.map((d, idx) => (
             <div
               key={idx}

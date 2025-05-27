@@ -1,4 +1,4 @@
-import { Calendar } from 'lucide-react';
+import { Calendar, Menu} from 'lucide-react';
 import React from 'react'
 import { MdDashboard } from "react-icons/md";
 import { FaHistory } from "react-icons/fa";
@@ -16,7 +16,7 @@ const Sidebar = () => {
   `flex items-center justify-start gap-3 text-sm cursor-pointer transition-all delay-75 
    ${isActive ? 'text-black font-semibold' : 'text-gray-500 hover:text-black'}`;
   return (
-    <div className='w-[20vw] h-[100vh] font-bold rounded  text-white shadow-2xl'>
+    <div className='w-[20vw] h-[100vh] font-bold rounded  text-white shadow-2xl  [@media(min-width:200px)]:w-[100%]'>
       <div className="h-[12vh] w-full flex justify-center pt-10 space-x-1">
         <a href="#" className='flex text-3xl font-bold'>
             <span className=' text-teal-500'>Health</span>
