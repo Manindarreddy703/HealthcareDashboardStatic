@@ -14,7 +14,7 @@ const Dashboard = () => {
                 <input
                     type="text"
                     placeholder="Search"
-                    className="w-1/3 px-4 py-2 border rounded-full shadow-sm"
+                    className="w-full px-4 py-2 border rounded-full shadow-sm"
                 />
                 <div className="p-2 bg-white rounded-full shadow">
                     <Bell size={20} />
