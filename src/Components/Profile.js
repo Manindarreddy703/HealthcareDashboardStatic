@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../../public/img/avatar.png'; 
+import avatar from '../img/avatar.png'; 
 const Profile = () => {
   return (
     <div className="p-6 max-w-5xl mx-auto font-sans space-y-8">
