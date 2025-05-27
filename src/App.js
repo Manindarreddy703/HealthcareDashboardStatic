@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Sidebar from './Components/Sidebar';
 import { Routes, Route } from 'react-router-dom';
@@ -25,8 +24,6 @@ function App() {
           </div>
         </>
       )}
-
-      {/* Sidebar always visible for md and up */}
       <div className="hidden md:block w-[20vw]">
         <Sidebar SetSidebar={SetSidebar} />
       </div>

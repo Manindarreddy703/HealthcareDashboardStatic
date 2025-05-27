@@ -1,4 +1,7 @@
 import React from 'react';
+import {FaTooth, FaWeight   } from 'react-icons/fa';
+import { MdFitnessCenter } from 'react-icons/md';
+import { PiHandFistLight } from "react-icons/pi";
 
 const days = [
   { day: 'Mon', date: 25, times: ['10:00', '11:00', '12:00'] },
@@ -70,13 +73,13 @@ const SchedulePage = () => {
           title="Dentist"
           time="09:00–11:00"
           doctor="Dr. Cameron Williamson"
-          icon="🦷"
+          icon={<FaTooth/> }
         />
         <AppointmentCard
           title="Physiotherapy Appointment"
           time="11:00–12:00"
           doctor="Dr. Kevin Djones"
-          icon="💪"
+          icon={<PiHandFistLight  />}
           bg="bg-purple-100"
           textColor="text-gray-800"
         />

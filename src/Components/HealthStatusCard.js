@@ -1,6 +1,5 @@
 
 import React from 'react';
-
 const HealthStatusCard = ({ label, date, color, progress }) => {
   return (
     <div className="bg-white p-4 rounded-xl shadow">

@@ -4,10 +4,8 @@ import Profile from './Profile';
 import UpcomingSchedule from './UpcomingSchedule';
 import { Bell, Menu } from 'lucide-react';
 
-const ScheduleDashboard = ({sidebar, SetSidebar ,activeTab, setActiveTab}) => {
-  {
-    console.log(activeTab)
-  }
+const ScheduleDashboard = ({ SetSidebar ,activeTab, setActiveTab}) => {
+  
   return (
     <div className={  'p-2 bg-gray-50 min-h-screen  [@media(max-width:490px)]:w-[95vw]'}>
       {

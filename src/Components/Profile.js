@@ -1,5 +1,4 @@
 import React from 'react';
-import avatar from '../img/avatar.png'; 
 import { IoAddCircle } from 'react-icons/io5';
 import { RiAccountCircleFill } from "react-icons/ri";
 

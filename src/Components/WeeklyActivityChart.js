@@ -1,7 +1,6 @@
 import React from 'react';
 
 const days = ['Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun'];
-
 const WeeklyActivityChart = () => {
   return (
     <div className="mt-3 bg-white p-6 rounded-xl shadow">

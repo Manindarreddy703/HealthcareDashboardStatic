@@ -10,7 +10,6 @@ export default function NotFound() {
         <p className="text-black text-lg mt-4  mb-5 max-w-md mx-auto">
           Oops! The page you're looking for doesn't exist or has been moved.
         </p>
-
         <Link
           to="/"
           className="inline-block px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-indigo-100 transition-all duration-300"

@@ -9,7 +9,7 @@ const healthItems = [
     { label: 'Bone', date: '26 Oct 2021', color: 'bg-orange-400', progress: 'w-1/2' },
     { label: 'Heart', date: '26 Oct 2021', color: 'bg-violet-400', progress: 'w-4/6' }
 ]
-const Dashboard = ({sidebar, SetSidebar,   activeTab, setActiveTab }) => {
+const Dashboard = ({SetSidebar, setActiveTab }) => {
     return (
         <div className={`p-3 bg-gray-50 font-sans h-[100vh]  [@media(max-width:490px)]:w-[95vw]`}>
             <div className="flex justify-between items-center mb-3 md:relative md:right-300">
